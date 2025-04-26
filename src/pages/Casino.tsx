@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import SlotMachine from "@/components/SlotMachine";
 import PayoutTable from "@/components/PayoutTable";
+import { cn } from "@/lib/utils";
 
 const Casino = () => {
   const [balance, setBalance] = useState(1000);
